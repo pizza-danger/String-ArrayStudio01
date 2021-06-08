@@ -1,15 +1,15 @@
 const input = require('readline-sync');
 let str = "LaunchCode";
 
-
 //a) Use string methods to remove the first three characters from the string and add them to the end.
 //Hint - define another variable to hold the new string or reassign the new string to str.
 
+let strPigBit = str.slice(0,3);
 
 
 //Use a template literal to print the original and modified string in a descriptive phrase.
 
-
+console.log(`${str.slice(3,9).concat(strPigBit)}`);
 
 //b) Modify your code to accept user input. Query the user to enter the number of letters that will be relocated.
 
